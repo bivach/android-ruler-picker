@@ -29,7 +29,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by Keval Patel on 28 Mar 2018.
+ * Created by Agustin Bivachi on 18 Nov 2018.
  * <p>
  * This is custom {@link View} which will draw a ruler with indicators.
  * There are two types of indicators:
@@ -281,10 +281,10 @@ final class RulerView extends View {
     protected void onDraw(Canvas canvas) {
         //Iterate through all value
         float count = (mMaxValue - mMinValue) / mIntervalHop;
+        int highlightValue = (int) ((mHighlightedValue - mMinValue) / mIntervalHop);
         for (int value = 1; value < count; value++) {
-            float drawableValue = mMinValue + value * mIntervalHop;
 
-            if (mHighlightedValue != null && drawableValue == mHighlightedValue) {
+            if (value == highlightValue) {
                 drawHighlightValue(canvas, value);
             }
 
@@ -308,7 +308,7 @@ final class RulerView extends View {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         //Measure dimensions
         mViewHeight = MeasureSpec.getSize(heightMeasureSpec);
-        float viewWidth = (mMaxValue - mMinValue - 1) * mIndicatorInterval;
+        float viewWidth = (mMaxValue - mMinValue - 1) * mIndicatorInterval / mIntervalHop;
 
         updateIndicatorHeight(mLongIndicatorHeightRatio, mShortIndicatorHeightRatio, mIntervalHop);
 
@@ -394,7 +394,7 @@ final class RulerView extends View {
      * @param value  Value to draw.
      */
     private void drawHighlightValue(@NonNull final Canvas canvas,
-                               final float value) {
+                                    final float value) {
         canvas.drawLine(mIndicatorInterval * value,
                 0,
                 mIndicatorInterval * value,
