@@ -1,6 +1,6 @@
 # Android Ruler Picker
 
-[![Build Status](https://travis-ci.org/kevalpatel2106/android-ruler-picker.svg?branch=master)](https://travis-ci.org/kevalpatel2106/android-ruler-picker) [![API](https://img.shields.io/badge/API-14%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=14)  <a href="https://www.paypal.me/kevalpatel2106"> <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" /></a> [![Javadoc](https://img.shields.io/badge/JavaDoc-master-brightgreen.svg?style=orange)](http://kevalpatel2106.com/android-ruler-picker/)
+[![Build Status](https://travis-ci.org/bivach/android-ruler-picker.svg?branch=master)](https://travis-ci.org/bivach/android-ruler-picker) [![API](https://img.shields.io/badge/API-14%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=14)  <a href="https://www.paypal.me/bivach"> <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" /></a> [![Javadoc](https://img.shields.io/badge/JavaDoc-master-brightgreen.svg?style=orange)](http://bivach.com/android-ruler-picker/)
 
 #### Android custom view that uses ruler for picking the number from given range.
 
@@ -13,13 +13,13 @@
 - ### Gradle dependency: 
     - Add below dependency into your build.gradle file.
         ```groovy
-        compile 'com.kevalpatel2106:ruler-picker:1.1'
+        compile 'com.bivach:ruler-picker:1.1'
         ```
     - For other build systems see [Import.md](/.github/IMPORT.md).
 
 - Add `RulerValuePicker` inside your XML layout.
 ```xml
-<com.kevalpatel2106.rulerpicker.RulerValuePicker
+<com.bivach.rulerpicker.RulerValuePicker
     android:id="@+id/ruler_picker"
     android:layout_width="match_parent"
     android:layout_height="100dp"
@@ -100,7 +100,7 @@ rulerValuePicker.setValuePickerListener(object : RulerValuePickerListener {
 Every small or large contribution to this project is appreciated. Make sure you read the [contribution guide](/.github/CONTRIBUTING.md) before generating the pull request.
 
 ## Questions?🤔
-Hit me on twitter [![Twitter](https://img.shields.io/badge/Twitter-@kevalpatel2106-blue.svg?style=flat)](https://twitter.com/kevalpatel2106)
+Hit me on twitter [![Twitter](https://img.shields.io/badge/Twitter-@bivach-blue.svg?style=flat)](https://twitter.com/bivach)
 
 ## Acknowledgements:
 - This library is based on [dwfox](https://github.com/dwfox)'s library [DWRulerView](https://github.com/dwfox/DWRulerView).

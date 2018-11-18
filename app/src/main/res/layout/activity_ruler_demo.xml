@@ -35,7 +35,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text="100"/>
 
-        <com.kevalpatel2106.rulerpicker.RulerValuePicker
+        <com.bivach.rulerpicker.RulerValuePicker
             android:id="@+id/ruler_value_picker"
             android:layout_width="match_parent"
             android:layout_height="100dp"

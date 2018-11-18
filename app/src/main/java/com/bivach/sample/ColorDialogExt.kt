@@ -11,7 +11,7 @@
  *  the specific language governing permissions and limitations under the License.
  */
 
-package com.kevalpatel2106.sample
+package com.bivach.sample
 
 import android.app.Activity
 import android.graphics.Color
@@ -21,9 +21,9 @@ import com.jaredrummler.android.colorpicker.ColorPickerDialogListener
 import com.jaredrummler.android.colorpicker.ColorShape
 
 /**
- * Created by Kevalpatel2106 on 30-Mar-18.
+ * Created by bivach on 30-Mar-18.
  *
- * @author <a href="https://github.com/kevalpatel2106">kevalpatel2106</a>
+ * @author <a href="https://github.com/bivach">bivach</a>
  */
 
 internal const val NOTCH_COLOR_PICKER_DIALOG_ID = 0

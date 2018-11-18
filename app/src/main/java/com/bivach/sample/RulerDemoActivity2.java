@@ -11,7 +11,7 @@
  *  the specific language governing permissions and limitations under the License.
  */
 
-package com.kevalpatel2106.sample;
+package com.bivach.sample;
 
 import android.os.Bundle;
 import android.support.design.widget.TextInputEditText;
@@ -20,8 +20,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.kevalpatel2106.rulerpicker.RulerValuePicker;
-import com.kevalpatel2106.rulerpicker.RulerValuePickerListener;
+import com.bivach.rulerpicker.RulerValuePicker;
+import com.bivach.rulerpicker.RulerValuePickerListener;
 
 public class RulerDemoActivity2 extends AppCompatActivity {
 

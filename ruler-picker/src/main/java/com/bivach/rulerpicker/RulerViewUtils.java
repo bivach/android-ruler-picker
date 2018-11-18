@@ -11,16 +11,16 @@
  *  the specific language governing permissions and limitations under the License.
  */
 
-package com.kevalpatel2106.rulerpicker;
+package com.bivach.rulerpicker;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 
 /**
- * Created by Kevalpatel2106 on 28-Mar-18.
+ * Created by bivach on 28-Mar-18.
  * Utils classes for this library.
  *
- * @author <a href="https://github.com/kevalpatel2106">kevalpatel2106</a>
+ * @author <a href="https://github.com/bivach">bivach</a>
  */
 final class RulerViewUtils {
 

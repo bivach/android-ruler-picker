@@ -11,7 +11,7 @@
  *  the specific language governing permissions and limitations under the License.
  */
 
-package com.kevalpatel2106.sample
+package com.bivach.sample
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -20,14 +20,14 @@ import android.text.TextWatcher
 import android.view.MenuItem
 import android.widget.Toast
 import com.jaredrummler.android.colorpicker.ColorPickerDialogListener
-import com.kevalpatel2106.rulerpicker.RulerValuePickerListener
+import com.bivach.rulerpicker.RulerValuePickerListener
 import com.xw.repo.BubbleSeekBar
 import kotlinx.android.synthetic.main.activity_ruler_demo.*
 
 /**
  * Created by Keval on 16/12/17.
  *
- * @author <a href="https://github.com/kevalpatel2106">kevalpatel2106</a>
+ * @author <a href="https://github.com/bivach">bivach</a>
  */
 class RulerDemoActivity : AppCompatActivity() {
 

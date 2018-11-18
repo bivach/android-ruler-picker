@@ -11,17 +11,11 @@
  *  the specific language governing permissions and limitations under the License.
  */
 
-package com.kevalpatel2106.rulerpicker;
+package com.bivach.sample
 
 /**
- * Created by Kevalpatel2106 on 29-Mar-18.
- * Listener to get the callback for {@link RulerValuePicker} events.
+ * Created by bivach on 30-Mar-18.
  *
- * @author <a href="https://github.com/kevalpatel2106">kevalpatel2106</a>
+ * @author <a href="https://github.com/bivach">bivach</a>
  */
-public interface RulerValuePickerListener {
-
-    void onValueChange(float selectedValue);
-
-    void onIntermediateValueChange(float selectedValue);
-}
+fun String.toSafeInt(): Int = if (isNullOrEmpty()) 0 else toInt()

@@ -11,7 +11,7 @@
  *  the specific language governing permissions and limitations under the License.
  */
 
-package com.kevalpatel2106.rulerpicker;
+package com.bivach.rulerpicker;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -20,7 +20,7 @@ import android.support.annotation.Nullable;
 import android.widget.HorizontalScrollView;
 
 /**
- * Created by Kevalpatel2106 on 29-Mar-2018.
+ * Created by bivach on 29-Mar-2018.
  * A {@link HorizontalScrollView} which has ability to detect start/stop scrolling.
  *
  * @see <a href="https://github.com/dwfox/DWRulerView>Original Repo</a>

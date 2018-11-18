@@ -11,7 +11,7 @@
  *  the specific language governing permissions and limitations under the License.
  */
 
-package com.kevalpatel2106.sample
+package com.bivach.sample
 
 import android.content.Intent
 import android.os.Bundle

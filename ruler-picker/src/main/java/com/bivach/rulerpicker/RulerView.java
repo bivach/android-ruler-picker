@@ -11,7 +11,7 @@
  *  the specific language governing permissions and limitations under the License.
  */
 
-package com.kevalpatel2106.rulerpicker;
+package com.bivach.rulerpicker;
 
 import android.annotation.TargetApi;
 import android.content.Context;

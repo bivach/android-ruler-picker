@@ -11,7 +11,7 @@
  *  the specific language governing permissions and limitations under the License.
  */
 
-package com.kevalpatel2106.rulerpicker;
+package com.bivach.rulerpicker;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -38,7 +38,7 @@ import android.widget.LinearLayout;
 
 
 /**
- * Created by Kevalpatel2106 on 29-Mar-2018.
+ * Created by bivach on 29-Mar-2018.
  * <p>
  * <li>Diagram:</li>
  * Observable ScrollView
