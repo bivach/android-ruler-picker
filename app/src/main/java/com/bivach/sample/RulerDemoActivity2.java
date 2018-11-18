@@ -37,7 +37,7 @@ public class RulerDemoActivity2 extends AppCompatActivity {
         }
 
         final TextInputEditText nameEt = findViewById(R.id.profile_name_et);
-        nameEt.setText("Audrey Jessica");
+        nameEt.setText("Test Jessica");
 
         //Set the height picker
         final TextView heightPickerValueTv = findViewById(R.id.height_value_tv);
