@@ -28,6 +28,8 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
+import java.text.NumberFormat;
+
 /**
  * Created by Agustin Bivachi on 18 Nov 2018.
  * <p>
@@ -140,6 +142,13 @@ final class RulerView extends View {
      * @see #getIndicatorIntervalWidth()
      */
     private float mIntervalHop = 10 /* Default value */;
+
+    /**
+     * Number formatter
+     *
+     * @see #setNumberFormatter(NumberFormat)
+     */
+    private NumberFormat mNumberFormatter = null /* Default value */;
 
     /**
      * Integer color of the text, that is displayed on the ruler.
@@ -380,7 +389,12 @@ final class RulerView extends View {
      */
     private void drawValueText(@NonNull final Canvas canvas,
                                final int value) {
-        canvas.drawText(String.valueOf(value * mIntervalHop + mMinValue),
+
+        String textValue = String.valueOf(value * mIntervalHop + mMinValue);
+        if (mNumberFormatter != null) {
+            textValue = mNumberFormatter.format(value * mIntervalHop + mMinValue);
+        }
+        canvas.drawText(textValue,
                 mIndicatorInterval * value,
                 (mViewHeight / 2) + (mTextPaint.getTextSize() / 2),
                 mTextPaint);
@@ -529,6 +543,17 @@ final class RulerView extends View {
     }
 
     /**
+     * Set the maximum value to display on the ruler. This will decide the range of values and number
+     * of indicators that ruler will draw.
+     *
+     * @param formatter Number formatter. Default value is null.
+     */
+    void setNumberFormatter(final NumberFormat formatter) {
+        mNumberFormatter = formatter;
+        invalidate();
+    }
+
+    /**
      * @return Get distance between two indicator in pixels.
      * @see #setIndicatorIntervalDistance(int)
      */
@@ -618,3 +643,4 @@ final class RulerView extends View {
         invalidate();
     }
 }
+

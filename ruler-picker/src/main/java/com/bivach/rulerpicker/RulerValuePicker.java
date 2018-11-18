@@ -36,6 +36,8 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
+import java.text.NumberFormat;
+
 
 /**
  * Created by bivach on 29-Mar-2018.
@@ -646,6 +648,16 @@ public final class RulerValuePicker extends FrameLayout implements ObservableHor
                                    final double shortHeightRatio,
                                    final double intervalHop) {
         mRulerView.setIndicatorHeight((float) longHeightRatio, (float) shortHeightRatio, (float) intervalHop);
+    }
+
+    /**
+     * Set the number formatter
+     *
+     * @param formatter Number formatter
+     * @see RulerView#mNumberFormatter
+     */
+    public void setNumberFormatter(final NumberFormat formatter) {
+        mRulerView.setNumberFormatter(formatter);
     }
 
     /**
