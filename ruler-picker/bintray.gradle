@@ -33,7 +33,7 @@ if (project.rootProject.file('local.properties').exists()) {
 
                     // Add your description here
                     name 'ruler-picker'  //Name of the repo
-                    description = ''
+                    description = 'Ruler Picker with decimals'
                     url siteUrl
 
                     // Set your license
@@ -90,7 +90,7 @@ if (project.rootProject.file('local.properties').exists()) {
         configurations = ['archives']
 
         pkg {
-            repo = "maven"
+            repo = "ruler-picker"
 
             name = 'ruler-picker'  //Name of the repo
             websiteUrl = siteUrl
