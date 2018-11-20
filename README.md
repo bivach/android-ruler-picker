@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/bivach/android-ruler-picker.svg?branch=master)](https://travis-ci.org/bivach/android-ruler-picker) [![API](https://img.shields.io/badge/API-14%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=14)  <a href="https://www.paypal.me/bivach"> <img src="https://img.shields.io/badge/paypal-donate-yellow.svg" /></a> [![Javadoc](https://img.shields.io/badge/JavaDoc-master-brightgreen.svg?style=orange)](http://bivach.com/android-ruler-picker/)
 
-#### Android custom view that uses ruler for picking the number from given range.
+#### Ruler picker from kevalpatel2106 library with Decimal picker added.
 
 ## New Features:
 - Decimal picker
