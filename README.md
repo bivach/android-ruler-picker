@@ -4,6 +4,9 @@
 
 #### Android custom view that uses ruler for picking the number from given range.
 
+## New Features:
+- Decimal picker
+
 ## Features:
 - Easy to integrate. All you have to do is add the view into your XML and listen for the value changes.
 - Highly customizable. Change width, height, color, distance between indicators. Change the color and sze of the texts in the ruler in XML or dynamically from your java or kotlin code.
@@ -13,7 +16,7 @@
 - ### Gradle dependency: 
     - Add below dependency into your build.gradle file.
         ```groovy
-        compile 'com.bivach:ruler-picker:1.4'
+        compile 'com.bivach:ruler-picker:1.5'
         ```
     - For other build systems see [Import.md](/.github/IMPORT.md).
 
