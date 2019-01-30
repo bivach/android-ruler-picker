@@ -103,7 +103,7 @@ rulerValuePicker.setValuePickerListener(object : RulerValuePickerListener {
 Every small or large contribution to this project is appreciated. Make sure you read the [contribution guide](/.github/CONTRIBUTING.md) before generating the pull request.
 
 ## Questions?🤔
-Hit me on twitter [![Twitter](https://img.shields.io/badge/Twitter-@bivach-blue.svg?style=flat)](https://twitter.com/bivach)
+Hit me on twitter [![Twitter](https://img.shields.io/badge/Twitter-@bivach-blue.svg?style=flat)](https://twitter.com/bivachiok)
 
 ## Acknowledgements:
 - This library is based on [dwfox](https://github.com/dwfox)'s library [DWRulerView](https://github.com/dwfox/DWRulerView).
